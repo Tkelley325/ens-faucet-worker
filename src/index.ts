@@ -49,7 +49,7 @@ const query = ({
   method: string;
   params: any[];
 }) =>
-  fetch(`https://web3.ens.domains/v1/${network}`, {
+  fetch(`https://web3.euc.li/v1/${network}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
